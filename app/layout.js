@@ -1,3 +1,10 @@
 import "./globals.css";
-export const metadata={title:"BlockWorld",description:"A Roblox-inspired social gaming hub"};
-export default function RootLayout({children}){return <html><body>{children}</body></html>}
+
+export const metadata = {
+  title: "BlockSpace",
+  description: "BlockSpace - discover, create, and share interactive worlds.",
+};
+
+export default function RootLayout({ children }) {
+  return <html lang="en"><body>{children}</body></html>;
+}
